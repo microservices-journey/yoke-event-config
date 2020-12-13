@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: '{cipher}80adf712a64a7ac27d0aa07d992f866f1a50fc72149bb523fdd4b2b004d2ccb1'
+
+server:
+  port: 8083
+
+yoke:
+  notify:
+    url: http://localhost:8082/event
