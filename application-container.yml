@@ -2,6 +2,10 @@ spring:
   datasource:
     url: jdbc:postgresql://yoke-postgres:5432/postgres
   cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: yoke-kafka:9092
     config:
       discovery:
         enabled: true
