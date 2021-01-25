@@ -1,6 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://yoke-postgres:5432/postgres
+  zipkin:
+    baseUrl: http://yoke-zipkin:9411    
   cloud:
     stream:
       kafka:
@@ -19,3 +21,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://yoke-eureka-server:8761/eureka
+
+logback:
+  destination:
+    url: localhost
