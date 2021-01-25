@@ -24,4 +24,5 @@ eureka:
 
 logback:
   destination:
-    url: localhost
+    url: logstash
+    port: 5000
