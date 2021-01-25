@@ -1,8 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://yoke-postgres:5432/postgres
-  zipkin:
-    baseUrl: http://yoke-zipkin:9411    
+    url: jdbc:postgresql://yoke-postgres:5432/postgres 
   cloud:
     stream:
       kafka:
@@ -17,6 +15,9 @@ spring:
        multiplier: 1.5
        max-attempts: 20
        max-interval: 15000
+
+    zipkin:
+      baseUrl: http://yoke-zipkin:9411   
 eureka:
   client:
     serviceUrl:
