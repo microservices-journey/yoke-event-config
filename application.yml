@@ -25,8 +25,7 @@ spring:
     platform: postgres
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: "{cipher}AQCMxzDAPIsW2aQq24fmyKA2PfU/FbjDYwpc3z8OA/YvX8SiCdXV161dnx1L/ICcE6f4cHYOaGDsPvCwp/nv20NOujRkF2U0pQfE4wp5jeeGO324uNgZeVaIJCHuWHGMaRuUzuXhJdICGFVrVMIp5I5Lj/4XNHdihDWxX1gG9flLu/sr9WXMkUdfKb7t3gSbGFCe84RxUYOnUX4wbGAI/zMbdOzC6nZoYoIKzjAahfwV2PnNvnWt8QF1vqcknw3s4YadMDOtc3PcAcuV31Ns87UX77pN/
-    FzBSaVtpPtpwp9TcdxuE8v87OoYjk3cFX5epKtDHJqHnz4LvypWRHOfICkIt/9xZQMnuDEbYgxBQWtWxWQ9dexyDgXk3xQVKtUowsk="
+    password: "{cipher}AQCMxzDAPIsW2aQq24fmyKA2PfU/FbjDYwpc3z8OA/YvX8SiCdXV161dnx1L/ICcE6f4cHYOaGDsPvCwp/nv20NOujRkF2U0pQfE4wp5jeeGO324uNgZeVaIJCHuWHGMaRuUzuXhJdICGFVrVMIp5I5Lj/4XNHdihDWxX1gG9flLu/sr9WXMkUdfKb7t3gSbGFCe84RxUYOnUX4wbGAI/zMbdOzC6nZoYoIKzjAahfwV2PnNvnWt8QF1vqcknw3s4YadMDOtc3PcAcuV31Ns87UX77pN/FzBSaVtpPtpwp9TcdxuE8v87OoYjk3cFX5epKtDHJqHnz4LvypWRHOfICkIt/9xZQMnuDEbYgxBQWtWxWQ9dexyDgXk3xQVKtUowsk="
   zipkin:
     baseUrl: http://localhost:9411
 
