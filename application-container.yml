@@ -16,10 +16,10 @@ spring:
        max-attempts: 20
        max-interval: 15000
 
-    zipkin:
-      base-url: http://yoke-zipkin:9411
-      sender:
-        type: kafka
+  zipkin:
+    baseUrl: http://yoke-zipkin:9411
+    sender:
+      type: kafka
 eureka:
   client:
     serviceUrl:
