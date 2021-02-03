@@ -19,8 +19,8 @@ spring:
   zipkin:
     discoveryClientEnabled: false
     baseUrl: http://yoke-zipkin:9411
-    sender:
-      type: kafka
+    # sender:
+    #   type: kafka
 eureka:
   client:
     serviceUrl:
