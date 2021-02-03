@@ -17,7 +17,7 @@ spring:
        max-interval: 15000
 
     zipkin:
-      baseUrl: http://yoke-zipkin:9411
+      base-url: http://yoke-zipkin:9411
       sender:
         type: kafka
 eureka:
